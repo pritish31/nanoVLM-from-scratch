@@ -1,8 +1,7 @@
 # nanoVLM from scratch
 
 A compact, from-scratch implementation of a **dual-encoder contrastive image–text model** — the
-CLIP training recipe — built on a fully synthetic dataset of coloured geometric shapes. A vision
-tower and a text tower are trained to project matching image/caption pairs to nearby points in a
+CLIP training recipe — built on a fully synthetic dataset of coloured geometric shapes. A vision encoder and the text encoder are trained to project matching image/caption pairs to nearby points in a
 shared embedding space, which makes **text → image** and **image → text** retrieval possible.
 
 The project is deliberately small and readable: no pretrained weights, no external datasets, and a
