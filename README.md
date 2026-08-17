@@ -106,7 +106,7 @@ print(engine.text_to_image("red circle top-right", k=3))
 print("top-1 accuracy:", engine.top1_accuracy())
 ```
 
-**As a notebook:** open `contrastive_shapes.ipynb` in Jupyter or Colab and run all cells — it
+**As a notebook:** open `nanoVLM_code.ipynb` in Jupyter or Colab and run all cells — it
 renders sample shapes, trains, reports accuracy, and visualises retrievals inline.
 
 ## How it works
