@@ -77,11 +77,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-**As a script:**
-
-```bash
-```
-
 Available flags: `--epochs`, `--batch-size`, `--embed-dim`, `--lr`, `--seed`.
 
 **As a library:**
