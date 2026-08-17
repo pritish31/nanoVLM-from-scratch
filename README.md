@@ -58,9 +58,8 @@ CPU-only:
 ## Project structure
 
 ```
-nanoVLM-from-scratch/
-├── contrastive_shapes.py      # runnable module (config, pipelines, model, CLI)
-├── contrastive_shapes.ipynb   # same code as an interactive notebook, with plots
+nanoVLM-from-scratch/      
+├── nanoVLM_code.ipynb   # same code as an interactive notebook, with plots
 ├── requirements.txt
 ├── assets/
 │   └── retrieval_demo.png
@@ -81,7 +80,6 @@ pip install -r requirements.txt
 **As a script:**
 
 ```bash
-python contrastive_shapes.py --epochs 60
 ```
 
 Available flags: `--epochs`, `--batch-size`, `--embed-dim`, `--lr`, `--seed`.
@@ -127,7 +125,7 @@ renders sample shapes, trains, reports accuracy, and visualises retrievals inlin
 ## References & acknowledgements
 
 This project was built as a learning exercise while following the **Vizuara** videos and notes by
-**Dr. [Sreedath Panat](https://in.linkedin.com/in/sreedath-panat)**, whose explanations of
+**Dr. [Sreedath Panat]**, whose explanations of
 vision–language models and contrastive learning informed the approach here.
 
 The underlying technique — contrastive alignment of image and text embeddings — follows the CLIP
